@@ -1,1 +1,1 @@
-See Readme in [/src/public/README.md](/src/public/README.md)
+See Readme in [/public/README.md](/public/README.md)
