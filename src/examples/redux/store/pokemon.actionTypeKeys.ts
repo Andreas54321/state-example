@@ -1,0 +1,7 @@
+enum ActionTypeKeys {
+  FETCH_POKEMON = 'FETCH_POKEMON',
+  FETCH_POKEMON_SUCCESS = 'FETCH_POKEMON_SUCCESS',
+
+  INCREMENT_COUNT = 'INCREMENT_COUNT',
+}
+export default ActionTypeKeys;

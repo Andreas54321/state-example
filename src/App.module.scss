@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.8;
+      }
+      &.active {
+        color: #6ed4f0;
+        font-weight: bold;
+      }
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      li {
+        padding: 0 6px;
+      }
+    }
+  }
+}

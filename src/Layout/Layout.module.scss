@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-content: stretch;
+  width: 100%;
+  > * {
+    flex: 1;
+  }
+  .example {
+  }
+  .code {
+  }
+}

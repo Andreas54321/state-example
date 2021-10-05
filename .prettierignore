@@ -1,0 +1,7 @@
+*.min.js
+*.min.css
+package.json
+webcomponents.js
+content/*
+coverage/*
+code.ts
