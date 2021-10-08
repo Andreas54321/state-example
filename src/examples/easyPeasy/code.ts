@@ -28,6 +28,7 @@ const pokeModel: PokemonModel = {
   pokemon: undefined,
   // actions
   incrementCounter: action((state, payload) => {
+    // no copy needed! 'Immer' is used! 👇
     state.callCounter = state.callCounter + 1;
   }),
   setPokemon: action((state, payload) => {

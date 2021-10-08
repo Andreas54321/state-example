@@ -29,6 +29,7 @@ const files = [
     ],
   },
   { dir: `${__dirname}/../src/examples/valtio/`, files: ['ValtioProxyState.tsx'] },
+  { dir: `${__dirname}/../src/examples/xstate/`, files: ['xstate.tsx'] },
   { dir: `${__dirname}/../src/examples/zustand/`, files: ['ZustandContext.tsx'] },
   { dir: `${__dirname}/../src/examples/zustandAutoSelector/`, files: ['ZustandAutoSelector.tsx'] },
   { dir: `${__dirname}/../src/examples/zustandSaga/`, files: ['ZustandSaga.tsx'] },

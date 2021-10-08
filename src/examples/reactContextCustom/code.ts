@@ -23,9 +23,11 @@ import { initStore, StoreType } from '../../store/storeType';
 import code from './code';
 
 const ExampleContext = createContext<StoreType>(initStore);
+// selector 👇
 const useExampleContext = () => useContext(ExampleContext);
 
 export function ReactContextCustom() {
+  // effect 👇
   const loadPokemon = async () =>
     requestPokemon().then(
       pokemon => {
@@ -37,7 +39,7 @@ export function ReactContextCustom() {
       },
       () => {}
     );
-
+  // create, init store 👇
   const [state, setState] = useState<StoreType>({
     loadPokemon,
     callCounter: 0,

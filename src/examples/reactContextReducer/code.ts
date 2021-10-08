@@ -40,11 +40,13 @@ const appReducer = (state: StoreType, action: ActionTypes) => {
 };
 
 export function ReactContextReducer() {
+  // effect 👇
   const loadPokemon = async () =>
     requestPokemon().then(
       pokemon => dispatch({ type: 'SET_POKEMON', payload: pokemon }),
       () => {}
     );
+  // create store and bind reducer 👇
   const [state, dispatch] = useReducer(appReducer, { ...initStore, loadPokemon });
 
   return (

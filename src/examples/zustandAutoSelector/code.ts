@@ -46,6 +46,7 @@ export const ZustandContextAutoSelector = () => {
 
 const Component = () => {
   const pokemon = usePokemon();
+  // generated selector hooks 👇, does not work for optional fields ...
   const callCounter = useStore.useCallCounter();
   const loadPokemon = useStore.useLoadPokemon();
   return <ExampleComponent pokemon={pokemon} callCounter={callCounter} loadPokemon={loadPokemon} />;

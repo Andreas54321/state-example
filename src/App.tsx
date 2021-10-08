@@ -12,6 +12,7 @@ import { ReduxToolkit } from './examples/reduxToolkit/ReduxToolkit';
 import { ReduxState } from './examples/redux/Redux';
 import { EasyPeasyState } from './examples/easyPeasy/EasyPeasyState';
 import { Summary } from './Summary/Summary';
+import { XState } from './examples/xstate/xstate';
 
 const set = [
   { name: 'Home', path: '/', component: Home },
@@ -22,6 +23,7 @@ const set = [
   { name: 'Zustand Saga', path: '/zustand3', component: ZustandSaga },
   { name: 'Valtio Proxy', path: '/valtio', component: ValtioProxyState },
   { name: 'Recoil', path: '/recoil', component: RecoilState },
+  { name: 'Xstate', path: '/xstate', component: XState },
   { name: 'Redux', path: '/reduxOld', component: ReduxState },
   { name: 'Redux Toolkit', path: '/reduxToolkit', component: ReduxToolkit },
   { name: 'Easy Peasy', path: '/easyPeasy', component: EasyPeasyState },
