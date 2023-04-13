@@ -21,6 +21,7 @@ import { ExampleComponent } from '../../ExampleComponent/ExampleComponent';
 import { Layout } from '../../Layout/Layout';
 import { requestPokemon } from '../../services/pokemonService';
 import { initStore, StoreType } from '../../store/storeType';
+import code from './code';
 
 const machine = createMachine<StoreType>({
   id: 'pokemon',
@@ -76,7 +77,7 @@ promiseService.start();
 
 export function XState() {
   return (
-    <Layout title="XState" code={[]}>
+    <Layout title="XState" code={code}>
       <Component />
     </Layout>
   );

@@ -27,12 +27,6 @@
         "args": "none"
       }
     ],
-    "@typescript-eslint/no-explicit-any": [
-      "error",
-      {
-        "ignoreRestArgs": true
-      }
-    ],
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/indent": "warn",
     "@typescript-eslint/no-floating-promises": "error",
@@ -101,6 +95,7 @@
     "comma-dangle": "off",
     "@typescript-eslint/comma-dangle": "off",
     "react/no-unused-prop-types": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
